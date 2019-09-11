@@ -2,8 +2,8 @@
 int main()
 {
 	int arr[100],n;
-	int i,j=0,count,temp_arr[100];
-	int temp_n;
+	int i,j=0,count,temp_arr[100];					//try not use an additional array. Rethink the logic based on 
+	int temp_n;							//reversing array.
 	printf("enter the number of elements in the array: ");
 	scanf("%d", &n);
 	for(i=0;i<n;i++)
